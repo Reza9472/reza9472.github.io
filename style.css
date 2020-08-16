@@ -26,11 +26,7 @@ body {
   position: absolute;
 }
 
-/* footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-} */
+
 .contain {
   width: 100%;
   margin: 0 auto;
@@ -246,116 +242,52 @@ nav a:hover {
   padding: 8px 20px;
 }
 
-/* footer {
-  clear: both;
-  min-height: 300%;
-  position: static;
-  left: 0;
-  bottom: 0;
-  height: 200px;
-  width: 100%;
-  background-color: lightseagreen;
-  color: azure;
-  text-align: center;
-} */
-
-/* section {
-  display: inline-block;
-} */
-
-/* .nav-icon {
-  position: sticky;
-  margin: 1em;
-  width: 40px;
-  position: relative;
-  z-index: 2;
-}
-
-.nav-icon:after,
-.nav-icon:before,
-.nav-icon div {
-  background-color: #f1f1f1;
-  border-radius: 3px;
-  content: '';
-  display: block;
-  height: 5px;
-  margin: 7px 0;
-  transition: all 0.2s ease-in-out;
-}
-
-.nav-icon:hover::before {
-  transform: translateY(12px) rotate(135deg);
-}
-.nav-icon:hover div {
-  transform: scale(0);
-} */
-
-/* .nav-icon:hover #centerMenu {
-  visibility: visible;
-} */
-
-/* #centerMenu {
-  visibility: hidden;
-  border-radius: 500px;
-  background-color: khaki;
-  z-index: 3;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-} */
-
-/* * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-} */
 
 .footer {
   position: relative;
   top: 2700px;
+  overflow: hidden;
   width: 100vw;
   display: block;
-  overflow: hidden;
   padding: 70px 0;
-  box-sizing: border-box;
   background-color: #18181a;
+  box-sizing: border-box;
 }
 
 .interiorFooter {
-  display: block;
   margin: 0 auto;
-  width: 1100px;
   height: 100%;
+  width: 1100px;
+  display: block;
 }
 
 .interiorFooter .footerLogo {
-  width: 35%;
   float: left;
-  height: 100%;
+  width: 35%;
   display: block;
+  height: 100%;
 }
 
 .interiorFooter .footerLogo img {
-  width: 200px;
-  height: 200px;
   border-radius: 15px;
+  height: 200px;
+  width: 200px;
 }
 
 .interiorFooter .footerClass {
-  width: calc(20% - 20px);
   margin-right: 10px;
   float: left;
   height: 20%;
+  width: calc(20% - 20px);
 }
 
 
 .interiorFooter .footerClass h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 22px;
   color: azure;
-  display: block;
+  font-size: 22px;
   width: 100%;
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 20px;
 }
 .interiorFooter .footerClass:last-child {
@@ -401,10 +333,10 @@ margin-right: 0;
   }
 }
 
-.form-group p {
+.Post p {
   color: white;
 }
 
-.form-group label {
+.Post label {
   color: #f1f1f1;
 }

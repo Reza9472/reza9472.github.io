@@ -18,9 +18,7 @@
             class="logo"
           />
 
-          <!-- <div class="nav-icon">
-            <div id="menuBut"></div>
-          </div> -->
+         
 
           <nav>
             <ul>
@@ -150,26 +148,7 @@
             <option value="Mirabel">
           </datalist><br />
       
-          <!-- <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select> -->
-
-
-          
-          <!-- <label for="postalcode">Postal Code:</label><br />
-          <input required type="text" name="postalcode" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]"
-          title="Enter a valid Canadian postal code"/><br />
-          
-          <input type="radio" id="question" name="rad_but" value="question">
-          <label for="question">Question</label><br>
-          <input type="radio" id="comment" name="rad_but" value="comment">
-          <label for="comment">Comment</label><br>
-          <input type="radio" id="order" name="rad_but" value="order">
-          <label for="order">Order Problem</label>
-          <br> -->
+         
           
 
           <label for="radio_but">Select one of the following options</label><br>
@@ -188,7 +167,7 @@
             <input type="text" name="ordernumber" />
           </div>
       
-          <!-- <textarea required name="message"></textarea> -->
+ 
           <textarea id="subject" name="subject" placeholder="Please Type Your Message Here.." style="height:200px"></textarea>
       
           <input type="hidden" name="name" value="Reza" /><br />
@@ -196,9 +175,63 @@
           <input type="submit">
 
           
+          
       
         </form>
       </div>
 
   </body>
+
+  <div class="footer">
+    <div class="interiorFooter">
+      <div class="footerLogo">
+        <img src="images/default.png" alt="" />
+        
+      </div>
+
+      <div class="footerClass">
+        <h1>Need Assistance?</h1>
+        <a href="#">Terms &amp; Conditions</a>
+        <a href="#">Privacy policy</a>
+      </div>
+
+      <div class="footerClass">
+        <h1>More</h1>
+        <a href="#app1" onclick="allproducts()">My Products</a>
+        <a href="Contact.html">Contact Us</a>
+      </div>
+
+      <div class="footerClass">
+        <h1>Follow Us</h1>
+        <li>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </li>
+
+        <form action="https://formspree.io/xeqrdvky" method="POST">
+          <div class="Post">
+            <p>Feel free to subscribe to get early notifications for our new arrivals!</p>
+            <label for="mail">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="mail"
+              name="mail"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
 </html>
